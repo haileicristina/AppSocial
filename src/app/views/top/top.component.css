@@ -1,0 +1,63 @@
+*{margin:0; padding:0;}
+.top{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    width:100%;
+    background-position: center;
+    display: block;
+    margin: 0;
+    margin-top: 0px;
+    position: relative;
+    background-color:#fff;
+    
+}
+
+
+.top li {
+    list-style: none;
+    position: absolute;
+}
+
+.top img {
+    margin: 0;
+    height: 120%;
+    width: 100%;
+    vertical-align: top;
+}
+.top input{
+    display:none;
+}
+.top label {
+    background-color:gold;
+   
+    padding-bottom:5px;
+    cursor: pointer;
+    display: inline-block;
+    height: 5px;
+    position:relative;
+    width: 20px;
+    z-index: 10;
+}
+
+.top li:nth-child(1) label {
+    left: 10px;
+}
+
+.top li:nth-child(2) label {
+    left: 40px;
+}
+
+.top li:nth-child(3) label {
+    left: 70px;
+}
+.top img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.top li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}

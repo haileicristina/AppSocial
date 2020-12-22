@@ -1,0 +1,33 @@
+
+.sidenav{
+    background-color: #fff;
+    color:#111;
+}
+.sidenav :hover{
+    background-color:#fff; 
+    display:flex;   
+    
+}
+.sidenav a{
+    columns:gold;
+    display:flex;
+   
+    
+}
+.sidenav i{
+    padding-right: 10px;
+}
+.content{
+    padding:0px;
+    background-color:#fff;
+    background-size: cover;
+}
+.logo{
+    max-width: 80%;
+    color:rgba(255,255,255,.2);
+    background-color: #111;
+}
+.logo :hover{
+    color:black;
+    background-color:#111;
+}

@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-color: gold;
+   
+   
+   
+}
+
+.header mat-elevation-z4{
+   
+    z-index:initial;
+}
+.header a{
+    display: fixed;
+    align-items: center;
+    text-decoration: none;
+    z-index:initial;
+    
+}
+
+.header span, i{
+    color:#fff;
+    font-size: 0.8rem;
+    z-index:initial;
+}
+.header .logoamarelo{
+    max-height: 60px ;
+    z-index:initial;
+}
+
+.header .title-group{
+    padding-left: 25px;
+
+}
+.header .title-group i{
+    padding-right: 5px;
+}
+.github{
+    padding-left: 670px;
+    max-width: 20%;
+    max-height: 10%;
+   
+}
+.github :hover{
+    color:#fff;
+    cursor:pointer;
+}

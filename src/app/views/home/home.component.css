@@ -1,0 +1,135 @@
+.home{
+    background-color:black;
+   
+   
+}
+.home-vertical{
+    width: inherit;
+    height: inherit;
+    background:linear-gradient(to top, #3333 10%, transparent 90%);
+}
+.home-horizontal{
+    width: inherit;
+    height: inherit;
+    background:linear-gradient(to pright, #3333 10%, transparent 90%);
+}
+
+.slider{
+    background-color:rgba(233, 219, 21, 0.2);
+}
+.section{
+    padding-top:30px;
+    
+}
+.formulario{
+    background-size:cover;
+    background-color:#FDEC09;
+    color:#111;
+    height: 500px;
+    display:relative;
+}
+h2{
+    margin-left:150px;
+}
+.formImg{
+    max-width: 40%;
+    max-height: 70%;
+    position:absolute;
+    background-position: 20rem;
+}
+.card-body .h3{
+    font-size:500px;
+    background-color: #3333;
+    text-align: center;
+}
+.card-body .h2{
+    font-size: large;
+    background-color: #3333;
+    text-align: center;
+}
+
+
+.card-max :hover{
+    background-color: rgb(255,255,255,.2);
+}
+.card-title{
+    margin:0px, 0px, 0px, 30px;
+}
+.card-group{
+    overflow-x: hidden;
+    padding-left: 5px;
+}
+.card{
+    
+    display:inline-block;
+    padding-left: 130px;
+    width:150px;
+    cursor:pointer;
+    
+}
+.texto{
+    display:flex;
+    padding-top:100px;
+    z-index:100;
+    background-color: rgb(255,255,255,0.2);
+    margin-left:100px;
+   
+}
+.button{
+    display:relative;
+    
+}
+
+.rolagem{
+    width: 99999999999px;
+}
+.card .aumentar-img{
+    width: 300px;
+    
+}
+
+.card img{
+    margin-left:0;
+    width: 100%;
+    transform: scale(0.9);
+    transition:all ease 0.2s;   
+    background-image: gold;
+    
+    
+}
+.card img:hover{
+    transform: scale(1);
+    padding-top:150px;
+}
+.h2{
+    padding-bottom: 20rem;
+   
+}
+.bt{
+    color: gold;
+    background-color:#3333;
+}
+
+.form-group{
+    padding-left: 500px;
+    display:flex;
+    z-index:initial;
+   
+    
+}
+.form-group .div{
+    margin-bottom: 25px;
+}
+.form-check, .cadastro{
+     margin-left:500px;
+}
+
+.form-control, .cadastro{
+    color: gold;
+    background-color:#111;
+
+}
+.form-group, .form-check{
+    background-color:#FDEC09;
+    margin-bottom: 6px;
+}

@@ -1,0 +1,29 @@
+<mat-sidenav-container class="container">
+    <mat-sidenav class="sidenav" mode="side" opened
+    fixedInViewport="true" fixedTopGap ="64">
+        <mat-nav-list class="nav-list">
+            <img class="logo"src="assets/img/logoLotus.png" alt="logoLotus">  
+            <a id="mat-list-item" routerLink="/">
+                <i class="material-icons">
+                    home
+                </i>
+                Início
+            </a>
+            <a id=" mat-list-item" routerLink="/voluntarios">
+                <i class="material-icons">
+                    favorite
+                </i>
+                Seja Voluntário
+            </a>
+            <a id=" mat-list-item" routerLink="/cadastro-create">
+                <i class="material-icons">
+                   perm_identity
+                </i>
+               Cadastro
+            </a>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content class="content">
+       <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>
